@@ -1,0 +1,9 @@
+# Azure Functions Python .gitignore
+local.settings.json
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+.pytest_cache/
+.vscode/

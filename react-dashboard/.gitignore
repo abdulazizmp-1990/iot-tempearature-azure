@@ -1,0 +1,8 @@
+# React Frontend .gitignore
+node_modules/
+dist/
+build/
+.cache/
+.DS_Store
+*.log
+.env.local

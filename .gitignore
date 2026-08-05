@@ -1,0 +1,66 @@
+# ==========================================
+# Azurite Local Storage Emulator Data & Logs
+# ==========================================
+__blobstorage__/
+__queuestorage__/
+__azurite_db_*.json
+AzuriteConfig
+
+# ==========================================
+# Azure Functions (Python)
+# ==========================================
+azure-function/local.settings.json
+azure-function/.venv/
+azure-function/venv/
+azure-function/env/
+azure-function/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# React / Node / Frontend
+# ==========================================
+react-dashboard/node_modules/
+react-dashboard/dist/
+react-dashboard/build/
+react-dashboard/.next/
+react-dashboard/.cache/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================================
+# Arduino / C++ / Microcontroller Build Artifacts
+# ==========================================
+*.hex
+*.elf
+*.bin
+build/
+.arduinoIDE/
+
+# ==========================================
+# IDEs & System Files
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Thumbs.db
+
+# ==========================================
+# Secrets & Environment Variables
+# ==========================================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
